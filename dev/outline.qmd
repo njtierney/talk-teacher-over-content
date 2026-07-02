@@ -1,0 +1,122 @@
+---
+title: Outline for talk
+---
+
+::: {.notes}
+
+To build a sustainable consulting practice, I think you need a genuine value-add to the wider community. I am not convinced writing a post such as "10 things you need to do now to improve your data visualisations" cuts it. Teaching does. And more, I think you should share your course materials for free.
+
+In this talk I will argue teaching and openly sharing your materials is a sustainable business model. The value learners pay for when they attend a course is not the slides or the code, those should be freely available online. The value they get, which they are paying for, is time with the instructor, and the commitment they make to carving out space to learn something new.
+
+Developing free and open content compounds over time. It creates a living document you can refer to and update. It demonstrates your expertise not by telling people you know things, but by showing them. It surfaces your work to learners who would never have found you otherwise, and those learners become the pipeline for future consulting and collaboration. It also deepens your own understanding of the topic. So, you get professional development built in.
+
+I will discuss a case study in R training: _Quarto for Scientists_ to illustrate how this works in practice. I hope to leave attendees with the conviction that creating useful, openly available learning content is not a distraction from building a consulting practice, but is a highly effective way to build, and sustain one.
+
+:::
+
+## Audience poll
+
+OK, hands raised:
+
+- Who here teaches - like any course, short, semester, etc
+- Who teaches short courses?
+- Whose material is online for free?
+
+## Who is my audience?
+
+This talk is primarily targeted at those people who develop short course materials.
+
+Essentially, I think almost of all of your teaching materials should be online and free.
+
+My reasons here are:
+
+- People don't pay for courses to get content. They pay for your time. Put differently: The most valuable thing users get out of teaching is face to face (zoom to screen?) time. The content continues to become an ongoingly useful idea.
+
+- If students/users are given a packet of slides or teaching materials, then if they return to them in the following weeks/months, then are they really going to be kept up to date?
+
+
+## Things that can be only for those that pay
+
+- Video recording of the course. Captures their experience
+
+
+## The story?
+
+-
+
+
+## Sustainable consulting
+
+- We need to put our knowledge back out into the community
+- Not a LinkedIn™ post: 
+  - "The 10 types of clustering that all data scientists need to know. Let's dive in:"
+- Not a "free webinar"
+- Your teaching materials
+- Online, free. Forever.
+
+:::{.notes}
+- Why do we "need" to give back?
+- Why is this sustainable?
+:::
+
+## What do you mean, "free"?
+
+- I mean "free as in beer"
+
+## But why would people pay for "free" teaching materials
+
+- Given enough time, people can learn what they want.
+- The key component is "time".
+- Time with the instructor.
+- Time they have carved out to learn something new.
+
+## Benefits of free course materials
+
+- Compounds over time
+- A living document that can be updated freely
+- Deepens your own understanding of the topic
+- Demonstrates your expertise - show people what you know
+  - This is "Free advertising".
+  
+## This is not "my idea"
+
+This is essentially an extension of ideas that I have seen from peers in my community. There is a growing movement to make your textbooks free and available online.
+
+  - Yihui Xie: ["write a book with Chapman & Hall"](https://yihui.org/en/2018/08/bookdown-crc/)
+  - Jenny Bryan: ["happygitwithr"](https://happygitwithr.com/), [What They Forgot to Teach You About R](https://rstats.wtf/), ["stat545"](https://stat545.com/)
+  - Hadley Wickham: ["Advanced R"](https://adv-r.hadley.nz/), ["Mastering Shiny"](https://mastering-shiny.org/), ["R Packages"](https://r-pkgs.org/)
+  - [Rob Hyndman]()
+  - Miles McBain: [git for scientists](https://milesmcbain.github.io/git_4_sci/)
+  - ["Introduction to Statistical Learning"]()
+  - []()
+  
+More recently
+
+## Other core ideas
+
+- Courses aren't a primary product/source of income
+- Teaching courses is a way to get people in front of you
+- 
+
+
+## Case study: Quarto for Scientists
+
+- Built upon "Rmarkdown for scientists"
+- [11 contributions from external people - I did not request or ask for this help](https://github.com/njtierney/rmd4sci/pulls?q=is%3Apr+is%3Aclosed+-author%3Anjtierney+)
+- rmd4sci: 127 stars on github
+- qmd4sci: 67 stars on github
+- 
+
+:::{.notes}
+I will discuss a case study in R training: _Quarto for Scientists_ to illustrate how this works in practice. 
+:::
+
+:::{.notes}
+I hope to leave attendees with the conviction that creating useful, openly available learning content is not a distraction from building a consulting practice, but is a highly effective way to build, and sustain one.
+:::
+
+## Can you make some parts "not free"
+
+- I think there is a case for the following to be made 'paid':
+  - Online recordings of the course material
+  - Video content of the course
