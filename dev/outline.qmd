@@ -12,28 +12,168 @@ Developing free and open content compounds over time. It creates a living docume
 
 I will discuss a case study in R training: _Quarto for Scientists_ to illustrate how this works in practice. I hope to leave attendees with the conviction that creating useful, openly available learning content is not a distraction from building a consulting practice, but is a highly effective way to build, and sustain one.
 
+## Key points
+
+- **Time** is higher value than content
+- Your course should demonstrate:
+  - The ideas are important and worthwhile to learn
+  - It is possible to learn it
+- Short course teaching materials should be online and free
+- The online materials continue to support that learning
+
 ## Audience poll
 
-OK, hands raised:
-
-- Who here teaches - like any course, short, semester, etc
+- Who teaches: 1/2 day, 1 day, 2-3 days course semester, etc
 - Who teaches short courses?
 - Whose material is online for free?
 
-## Who is my audience?
+## My audience
 
-This talk is primarily targeted at those people who develop short course materials.
+- Those who develop **short course materials**.
+- Anything from a 1 hour workshop to a 3 day course.
+- Not "accredited courses": e.g., CPR, actuarials, etc.
 
-Essentially, I think almost of all of your teaching materials should be online and free.
+## Key points
+
+- **Time** is higher value than content
+- Your course should demonstrate:
+  - The ideas are important and worthwhile to learn
+  - It is possible to learn it
+- Short course teaching materials should be online and free
+- The online materials continue to support that learning
+
+## **Time** is higher value than content
+
+- We can learn almost anything now
+- The learner carves out time: protects it from emails, other distractions
+- The learner gets YOUR time as the teacher
+- They get to ask an expert, clarify misunderstandings
+  - stop you and go: "Hey, how did you do that"
+  
+## Time: Watching an experienced user
+
+- Contents do not substitute watching someone work
+
+## Course ideas are important and worthwhile
+
+> think the two most important messages that people can get from a short course are:
+
+> a) the material is important and worthwhile to learn (even if it's challenging), and 
+> b) it's possible to learn it!
+
+-- Hadley Wickham - [from a github gist in 2015](https://gist.github.com/hadley/37c8078eb9d46b5dac7e)
+
+## Ideas so far:
+
+- Your course has enticed people to attend
+- You convince them the ideas are worthwhile learning, and that they can learn them
+
+
+## Short course teaching materials should be online and free
+
+- Your slides
+- Written notes
+- Text books (that you have written)
+- Quiz questions/answers
+
+:::{.notes}
+This is essentially an extension of ideas that I have seen from peers in my community. There is a growing movement to make your textbooks free and available online.
+:::
+
+  - Yihui Xie: ["write a book with Chapman & Hall"](https://yihui.org/en/2018/08/bookdown-crc/)
+  - Jenny Bryan: ["happygitwithr"](https://happygitwithr.com/), [What They Forgot to Teach You About R](https://rstats.wtf/), ["stat545"](https://stat545.com/)
+  - Hadley Wickham: ["Advanced R"](https://adv-r.hadley.nz/), ["Mastering Shiny"](https://mastering-shiny.org/), ["R Packages"](https://r-pkgs.org/)
+  - [Rob Hyndman]()
+  - Miles McBain: [git for scientists](https://milesmcbain.github.io/git_4_sci/)
+  - ["Introduction to Statistical Learning"]()
+  - []()
+  
+## I'm not saying: "Deliver your courses for free"
+
+## What I am saying: give people an option
+
+- If they want to put in the extra work, use your materials as a resource, to learn the thing, great
+- If they want to see you "in person" (or on screen?), then they can pay for that
+- But putting the course material up online kind of only really serves to help you
+
+## A recipe for a course
+
+(Demo training.njtierney.com?)
+
+- Make a bookdown/quarto book
+- Add an appropriate license [CC BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+  - You can share/adapt
+  - You must attribute
+  - You cannot use the material for commercial purposes
+
+- Put it on github
+- Have it render when you make changes
+- Deliver the course in-person, or online
+- You don't need to share "course notes" or slides with your students
+- They just get everything from the online book
+- And after the 
+
+
+## This has been happening for some time
+
+- edX, MOOC (MOORPGs)
+- Youtube
+- Harvard's CS101
+- MIT's Linear Algebra course
+
+
+## Example: qmd4sci
+
+- github repo: [njtierney/qmd4sci](https://github.com/njtierney/qmd4sci)
+- exercises: [njtierney/qmd4sci-materials](https://github.com/njtierney/qmd4sci-materials)
+- website: [qmd4sci.njtierney.com](https://qmd4sci.njtierney.com)
+
+## What isn't included?
+
+- Videos of your courses where you are teaching the content
+- I see this mostly as a problem where your students should feel like they can ask any question and not be criticised/seen online. 
 
 My reasons here are:
 
-- People don't pay for courses to get content. They pay for your time. Put differently: The most valuable thing users get out of teaching is face to face (zoom to screen?) time. The content continues to become an ongoing-ly useful idea.
+- People don't pay for courses to get content. They pay for your time. Put differently: The most valuable thing users get out of teaching is face to face (zoom to screen?) time. The content continues to become an ongoing, useful idea.
 
 - If students/users are given a packet of slides or teaching materials, then if they return to them in the following weeks/months/years, then are they really going to be kept up to date?
 - How do you find your teaching materials again? Is it in an email? What if you don't have access to that email address again?
 - Make your teaching material accessible - put it on github, on your website, on zenodo. Put it online.
 - Congratulations, your teaching resource has now transformed into 
+
+## I don't think this is new
+
+
+- The value people derive isn't from the content itself
+- The value people yield is **time** - theirs, and yours
+  - Their time, carved out, to take your course
+  - Your time, they get to see you operate, ask you questions
+- Your course should show them:
+  - The ideas are important and worthwhle to learn
+  - It is possible to learn it
+
+
+## Hadley's quote
+
+> think the two most important messages that people can get from a short course are:
+
+> a) the material is important and worthwhile to learn (even if it's challenging), and 
+> b) it's possible to learn it!
+
+-- Hadley Wickham - https://gist.github.com/hadley/37c8078eb9d46b5dac7e
+
+## Dave Borg
+
+
+One of the most useful things in a workshop is seeing the process - it convvinces you that the thing is worth learning. 
+
+these workshops help improve your  mental model - which allows you to improve how you learn a thing, as you have more nodes.
+
+how much time are you affording to sit down and solve things - your coding resilience.
+
+
+## In the R community
 
 ## How this is different for university courses
 

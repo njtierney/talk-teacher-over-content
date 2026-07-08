@@ -8,3 +8,10 @@ $presentation-h1-font-size: 2em;
 .reveal strong {
   color: $custom-col;
 }
+
+.highlight-last  {
+  color: grey;
+  .current-fragment {
+    color: #f0a800;
+  }
+}
