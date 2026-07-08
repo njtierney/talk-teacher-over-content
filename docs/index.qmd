@@ -10,7 +10,7 @@ format:
     incremental: true
     slide-number: c
     show-slide-number: all
-    footer: "njtierney.github.io/GH-REPO-NAME/"
+    footer: "njtierney.github.io/talk-teacher-over-content/"
 execute: 
   echo: false
   warning: false
@@ -212,6 +212,16 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 - In fact, I'm advertising my training.njtierney.com courses!
 
 ## Take homes
+
+- Short course materials should be online and free
+  - People aren't paying for your content
+  - They are paying for your **time**
+  - **Time**  >>> content
+  - Your course should demonstrate:
+    - The ideas are important and worthwhile to learn
+    - It is possible to learn it
+  - The online materials continue to support that learning
+
 
 # Thanks
 

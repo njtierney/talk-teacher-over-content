@@ -11,15 +11,29 @@ Developing free and open content compounds over time. It creates a living docume
 I will discuss a case study in R training: _Quarto for Scientists_ to illustrate how this works in practice. I hope to leave attendees with the conviction that creating useful, openly available learning content is not a distraction from building a consulting practice, but is a highly effective way to build, and sustain one.
 
 
-# Slide available [here](https://talks.njtierney.com/<GITHUB-REPO-NAME>)
+# Slide available [here](https://njtierney.github.io/talk-teacher-over-content/)
 
 # Take home messages 
 
-1. Point one
-1. Point two
-1. Point three
+- Short course materials should be online and free
+  - People aren't paying for your content
+  - They are paying for your **time**
+  - **Time**  >>> content
+  - Your course should demonstrate:
+    - The ideas are important and worthwhile to learn
+    - It is possible to learn it
+  - The online materials continue to support that learning
 
 # Thanks
+
+- Maëlle Salmon
+- Miles McBain
+- David Borg
+- Organising Committee
+- Hadley Wickham
+- Jenny Bryran
+- Yihui Xie
+- Di Cook
 
 # Resources
 
