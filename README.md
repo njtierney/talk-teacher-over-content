@@ -15,7 +15,7 @@ I will discuss a case study in R training: _Quarto for Scientists_ to illustrate
 
 # Take home messages 
 
-- Short course materials should be online and free
+- course materials should be online and free
   - People aren't paying for your content
   - They are paying for your **time**
   - **Time**  >>> content

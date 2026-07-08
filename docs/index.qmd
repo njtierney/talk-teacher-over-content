@@ -1,5 +1,5 @@
 ---
-title: "The value in teaching is not the content, it's the teacher"
+title: "The value in teaching is not the **content** <br> it's the **teacher**"
 subtitle: "Naarm (Melbourne)"
 date: "2026-07-10"
 author: "Nicholas Tierney"
@@ -66,13 +66,19 @@ nipa <- list(red = "#c03018",
 
 ```
 
-# Short course materials should be online and free
+# course materials default: **online** & **free**
 
-## {background-iframe="https://qmd4sci.njtierney.com/" background-interactive="true"}
+##  {background-image="images/qmd-4-sci.png" background-size="contain"}
 
-## {background-iframe="https://intro2rpkgs.njtierney.com/" background-interactive="true"}
+##  {background-image="images/intro-2-rpkgs.png" background-size="contain"}
 
-## Short course materials should be online and free
+##  {background-image="images/posit-branded-quarto.png" background-size="contain"}
+
+##  {background-image="images/posit-shiny-r.png" background-size="contain"}
+
+##  {background-image="images/posit-shiny-py.png" background-size="contain"}
+
+## Course materials should be online and free^*^
 
 :::{.highlight-last}
 
@@ -83,26 +89,25 @@ nipa <- list(red = "#c03018",
   - The ideas are important and worthwhile to learn
   - It is possible to learn it
 - The online materials continue to support that learning
+- "Free" barring IP/copyright/contract rules
 
 :::
 
 ## Audience poll
 
 - Who teaches: 0.5...1...2-3 day(s), semester courses?
-- Who teaches short courses?
+- Who teaches courses?
 - Whose material is online for free?
-- This talk is aimed at **short course materials**.
-  - Not "accredited courses": e.g., CPR, actuarials, etc.
 
 ## **Time** >>> content
 
-- time, not content, is the bottleneck for learning
-- The learner carves out time: protects it from distraction
-- The learner gets YOUR time as the teacher
+- **Time**, not content, is the bottleneck for learning
+- The learner **carves out time**: protects it from distraction
+- The learner gets **your time** as the teacher
 - They get to ask an expert, clarify misunderstandings
+  - powers of observational learning
   - "How did you do that?"
   - "Why this way over XXX?"
-  - "Is that the same as YYY?"
   
 ## Course ideas are important and worthwhile
 
@@ -113,20 +118,23 @@ nipa <- list(red = "#c03018",
 
 -- Hadley Wickham - [from a github gist in 2015](https://gist.github.com/hadley/37c8078eb9d46b5dac7e)
 
-## The online materials continue to support that learning
+## Online materials continue to support learning
 
 - No searching through emails to find PDFs of slides
-- Course materials are a living document that will be up to date
-- This material adds to the narrative, provides help in the future
+- Course materials are a living document, up-to-date
+- Course materials easily downloaded
+- Your material adds to knowledge base, provides help in the future
 - Deepens your own understanding of the topic: built-in professional development
 
-## How can "free" be sustainable?
+## How is **"free"** sustainable?
 
-- Courses aren't a primary product/source of income
-- I view courses and teaching as a way to get people in front of you
-- Demonstrates your expertise - show people what you know
-  - This is "Free advertising"
-  - These could be future clients
+- Your course shows expertise
+- This is "Free advertising"
+- Gets people in front of you
+- These could be future clients
+- Finding clients is harder than making content
+- Works even if courses are primary income
+- Helps those who could not otherwise afford
 
 ## What materials are "free"?
 
@@ -135,28 +143,7 @@ nipa <- list(red = "#c03018",
 - Text books (that you have written)
 - Quiz questions/answers
 
-:::{.notes}
-This is essentially an extension of ideas that I have seen from peers in my community. There is a growing movement to make your textbooks free and available online.
-:::
-
-## Free learning isn't a new idea
-
-- [Statistical Rethinking on Youtube]("https://www.youtube.com/@rmcelreath/playlists")
-- [khan academy](https://www.khanacademy.org/)
-- [edX](https://www.edx.org/)
-- [coursera](https://www.coursera.org/)
-- [Harvard's CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science)
-- [MIT's linear algebra course](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
-
-## Examples in R community
-
-- Yihui Xie: ["write a book with Chapman & Hall"](https://yihui.org/en/2018/08/bookdown-crc/)
-- Jenny Bryan: ["happygitwithr"](https://happygitwithr.com/), [What They Forgot to Teach You About R](https://rstats.wtf/), ["stat545"](https://stat545.com/)
-- Hadley Wickham: ["Advanced R"](https://adv-r.hadley.nz/), ["Mastering Shiny"](https://mastering-shiny.org/), ["R Packages"](https://r-pkgs.org/)
-- [Forecasting Principles and Practice](https://otexts.com/fpp3/)
-- Miles McBain: [git for scientists](https://milesmcbain.github.io/git_4_sci/)
-
-## What do people pay for then?
+## What is not free?
 
 -  I am not saying: "Deliver your courses for free"
 -  I am saying: People pay for their time in your course
@@ -182,38 +169,66 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 - Your time
 - Hard copy of book
 
-## Example: qmd4sci
+:::{.notes}
+This is essentially an extension of ideas that I have seen from peers in my community. There is a growing movement to make your textbooks free and available online.
+:::
+
+## **Free** learning is not new
+
+- [Statistical Rethinking on Youtube]("https://www.youtube.com/@rmcelreath/playlists")
+- [khan academy](https://www.khanacademy.org/)
+- [edX](https://www.edx.org/)
+- [coursera](https://www.coursera.org/)
+- [Harvard's CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science)
+- [MIT's linear algebra course](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+
+## Examples in R community
+
+- Yihui Xie: ["write a book with Chapman & Hall"](https://yihui.org/en/2018/08/bookdown-crc/)
+- [happygitwithr by Jenny Bryan, STAT 545 TAs, Jim Hester.](https://happygitwithr.com/)
+- ["Stat545", Jenny Bryan & The STAT 545 TAs](https://stat545.com/)
+- Hadley Wickham: ["Advanced R"](https://adv-r.hadley.nz/), ["Mastering Shiny"](https://mastering-shiny.org/), ["Webscraping with R"](https://github.com/hadley/web-scraping)
+- [Forecasting Principles and Practice, by Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp3/)
+- [git for scientists, by Miles McBain](https://milesmcbain.github.io/git_4_sci/)
+
+## My course: qmd4sci
 
 - Built upon "Rmarkdown for scientists"
-- [11 contributions from external people - I did not request or ask for this help](https://github.com/njtierney/rmd4sci/pulls?q=is%3Apr+is%3Aclosed+-author%3Anjtierney+)
+- [10 (unprompted) outsider contributions](https://github.com/njtierney/rmd4sci/pulls?q=is%3Apr+is%3Aclosed+-author%3Anjtierney+)
 - github repo: [njtierney/qmd4sci](https://github.com/njtierney/qmd4sci)
-- exercises: [njtierney/qmd4sci-materials](https://github.com/njtierney/qmd4sci-materials)
+- exercises: [njtierney/qmd4sci-exercises](https://github.com/njtierney/qmd4sci-exercises)
 - website: [qmd4sci.njtierney.com](https://qmd4sci.njtierney.com)
 - rmd4sci: 127 stars on github
 - qmd4sci: 67 stars on github
-- 
+  - inherent danger/flaw of tracking stars
+- Give URL once - don't need to share/update attachments
 
 ## How to: put a course online
 
-- Make a bookdown/quarto book
+From my post, ["How to put a course online"]()
+
+- Make a quarto book
 - Add an appropriate license [CC BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-  - You can share/adapt
-  - You must attribute
-  - You cannot use the material for commercial purposes
+  - Can share/adapt, must attribute
+  - Cannot use materials commercially
 - Put it on github
 - Have it render when you make changes
 - Deliver the course in-person, or online
-- You don't need to share "course notes" or slides with your students
-- They just get everything from the online book
 
 ## On "free advertising"
 
-- And, yes, you better bet I'm taking this chance to advertise my teaching material
-- In fact, I'm advertising my training.njtierney.com courses!
+- I'm advertising my courses! [training.njtierney.com](https://training.njtierney.com/)
+  - [R best practices](https://r-best-practices.njtierney.com/)
+  - [Quarto for Scientists](https://qmd4sci.njtierney.com/)
+  - [Making better graphs](https://better-vis.njtierney.com/)
+  - [Introduction to functions and debugging](https://fun2debug.njtierney.com/)
+  - [Introduction to git and github](https://gentle-git.njtierney.com/)
+  - [Introduction to targets and geotargets](https://gentle-targets.njtierney.com/)
+  - [Introduction to R packages](https://intro2rpkgs.njtierney.com/)
 
 ## Take homes
 
-- Short course materials should be online and free
+- Course materials should be online and free
   - People aren't paying for your content
   - They are paying for your **time**
   - **Time**  >>> content
@@ -232,7 +247,7 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 - Maëlle Salmon
 - Miles McBain
 - David Borg
-- Committee for bursary
+- Travel Bursary from organising committee of "Essential skills for statistics leadership in consultancy and research",
 
 :::
 
@@ -249,9 +264,9 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 
 # Resources
 
-- Quarto
-- bookdown
-- slidecraft
+- [training.njtierney.com](https://training.njtierney.com/)
+- [quarto](https://quarto.org/)
+- [slidecraft](https://slidecrafting-book.com/)
 
 # Colophon
 
@@ -265,7 +280,9 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 
 # Learning more
 
-- **talk link** [talk link]()
+- **github repo** [njtierney/talk-teacher-over-content](https://github.com/njtierney/talk-teacher-over-content)
+
+- **talk link** [njtierney.github.io/talk-teacher-over-content/](https://njtierney.github.io/talk-teacher-over-content/)
 
 - **github** `@njtierney`
 
@@ -279,31 +296,25 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 
 ![](images/pct-collage.jpg){background-size="75%"}
 
-# End
+
+::: {.notes}
 
 # Cutting room floor
 
+- One of the most useful things in a workshop is seeing the process - it convinces you that the thing is worth learning. 
+- these workshops help improve your  mental model - which allows you to improve how you learn a thing, as you have more nodes.
+- how much time are you affording to sit down and solve things - your coding resilience.
+- **Time**: watch and learn
+  - Contents are no substitute for watching someone work
+- We need to put our knowledge back out into the community
+- Not a LinkedIn™ post: 
+  - "The 10 types of clustering that all data scientists need to know. Let's dive in:"
+- Not a "free webinar"
+- Your teaching materials
 
-(Demo training.njtierney.com?)
+I hope to leave attendees with the conviction that creating useful, openly available learning content is not a distraction from building a consulting practice, but is a highly effective way to build, and sustain one.
 
-
-## Dave Borg
-
-One of the most useful things in a workshop is seeing the process - it convvinces you that the thing is worth learning. 
-
-these workshops help improve your  mental model - which allows you to improve how you learn a thing, as you have more nodes.
-
-how much time are you affording to sit down and solve things - your coding resilience.
-
-## How this is different for university courses
-
-- Universities might not want your teaching content online for free - copyright can be challenging here
-- The learning at a university course happens consistently over a time period of like 13 weeks. You are practicing the skills in that time. Of course, it would still be useful if the materials are always there and easy to find.
-- Mostly you are then practicing using the skills during the university semester.
-- However, a short course often follows a pattern of a student taking time off to learn the material, then they might not have a direct opportunity to 
-
-
-::: {.notes}
+# Abstract
 
 To build a sustainable consulting practice, I think you need a genuine value-add to the wider community. I am not convinced writing a post such as "10 things you need to do now to improve your data visualisations" cuts it. Teaching does. And more, I think you should share your course materials for free.
 
@@ -314,41 +325,3 @@ Developing free and open content compounds over time. It creates a living docume
 I will discuss a case study in R training: _Quarto for Scientists_ to illustrate how this works in practice. I hope to leave attendees with the conviction that creating useful, openly available learning content is not a distraction from building a consulting practice, but is a highly effective way to build, and sustain one.
 
 :::
-
-## **Time**: watch and learn
-
-- Contents do not substitute watching someone work
-
-## Ideas so far:
-
-- Your course has enticed people to attend
-- You convince them the ideas are worthwhile learning, and that they can learn them
-
-
-## Sustainable consulting
-
-- We need to put our knowledge back out into the community
-- Not a LinkedIn™ post: 
-  - "The 10 types of clustering that all data scientists need to know. Let's dive in:"
-- Not a "free webinar"
-- Your teaching materials
-- Online, free. Forever.
-
-:::{.notes}
-- Why do we "need" to give back?
-- Why is this sustainable?
-:::
-
-:::{.notes}
-I will discuss a case study in R training: _Quarto for Scientists_ to illustrate how this works in practice. 
-:::
-
-:::{.notes}
-I hope to leave attendees with the conviction that creating useful, openly available learning content is not a distraction from building a consulting practice, but is a highly effective way to build, and sustain one.
-:::
-
-## Can you make some parts "not free"
-
-- I think there is a case for the following to be made 'paid':
-  - Online recordings of the course material
-  - Video content of the course
