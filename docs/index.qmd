@@ -96,8 +96,7 @@ nipa <- list(red = "#c03018",
 ## Audience poll
 
 - Who teaches: 0.5...1...2-3 day(s), semester courses?
-- Who teaches courses?
-- Whose material is online for free?
+- Whose course material is online for free?
 
 ## **Time** >>> content
 
@@ -184,12 +183,12 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 
 ## Examples in R community
 
-- Yihui Xie: ["write a book with Chapman & Hall"](https://yihui.org/en/2018/08/bookdown-crc/)
-- [happygitwithr by Jenny Bryan, STAT 545 TAs, Jim Hester.](https://happygitwithr.com/)
-- ["Stat545", Jenny Bryan & The STAT 545 TAs](https://stat545.com/)
-- Hadley Wickham: ["Advanced R"](https://adv-r.hadley.nz/), ["Mastering Shiny"](https://mastering-shiny.org/), ["Webscraping with R"](https://github.com/hadley/web-scraping)
-- [Forecasting Principles and Practice, by Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp3/)
-- [git for scientists, by Miles McBain](https://milesmcbain.github.io/git_4_sci/)
+- [Write a book with Chapman & Hall](https://yihui.org/en/2018/08/bookdown-crc/), by Yihui Xie.
+- [Advanced R](https://adv-r.hadley.nz/), [Mastering Shiny](https://mastering-shiny.org/), , by Hadley Wickham.
+- [Forecasting Principles and Practice](https://otexts.com/fpp3/), by Rob J Hyndman and George Athanasopoulos.
+- [git for scientists](https://milesmcbain.github.io/git_4_sci/), by Miles McBain.
+- [happygitwithr](https://happygitwithr.com/) by Jenny Bryan, STAT 545 TAs, Jim Hester.
+- [Stat545](https://stat545.com/) by Jenny Bryan & The STAT 545 TAs
 
 ## My course: qmd4sci
 
@@ -203,9 +202,9 @@ This is essentially an extension of ideas that I have seen from peers in my comm
   - inherent danger/flaw of tracking stars
 - Give URL once - don't need to share/update attachments
 
-## How to: put a course online
+## How to: put a course book online
 
-From my post, ["How to put a course online"]()
+From my post, ["How to put a course book online"]()
 
 - Make a quarto book
 - Add an appropriate license [CC BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
@@ -217,7 +216,7 @@ From my post, ["How to put a course online"]()
 
 ## On "free advertising"
 
-- I'm advertising my courses! [training.njtierney.com](https://training.njtierney.com/)
+- Register your interest at [training.njtierney.com](https://training.njtierney.com/)
   - [R best practices](https://r-best-practices.njtierney.com/)
   - [Quarto for Scientists](https://qmd4sci.njtierney.com/)
   - [Making better graphs](https://better-vis.njtierney.com/)
@@ -240,31 +239,14 @@ From my post, ["How to put a course online"]()
 
 # Thanks
 
-:::: {.columns}
-
-::: {.column width = "40%"}
 
 - Maëlle Salmon
 - Miles McBain
 - David Borg
 - Travel Bursary from organising committee of "Essential skills for statistics leadership in consultancy and research",
 
-:::
-
-::: {.column width = "40%"}
-
-- Hadley Wickham
-- Jenny Bryran
-- Yihui Xie
-- Di Cook
-
-:::
-
-::::
-
 # Resources
 
-- [training.njtierney.com](https://training.njtierney.com/)
 - [quarto](https://quarto.org/)
 - [slidecraft](https://slidecrafting-book.com/)
 
@@ -273,6 +255,8 @@ From my post, ["How to put a course online"]()
 - Slides made using [quarto](https://github.com/quarto-dev/quarto)
 - Colours taken + modified from [lorikeet theme from ochRe](https://github.com/ropenscilabs/ochRe)
 [njtierney/njt-talks](github.com/njtierney/njt-talks)
+- [Accessibility - contrast checker](https://webaim.org/resources/contrastchecker/)
+
 <!-- - Header font is **Josefin Sans** -->
 <!-- - Body text font is **Montserrat** -->
 <!-- - Code font is **Fira Mono** -->
@@ -280,9 +264,11 @@ From my post, ["How to put a course online"]()
 
 # Learning more
 
+- **Data Science training** [training.njtierney.com](https://training.njtierney.com/)
+
 - **github repo** [njtierney/talk-teacher-over-content](https://github.com/njtierney/talk-teacher-over-content)
 
-- **talk link** [njtierney.github.io/talk-teacher-over-content/](https://njtierney.github.io/talk-teacher-over-content/)
+- **website** [njtierney.com](njtierney.typeform.com/to/mxZOOmJD)
 
 - **github** `@njtierney`
 
