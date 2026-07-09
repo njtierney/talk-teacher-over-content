@@ -204,7 +204,7 @@ This is essentially an extension of ideas that I have seen from peers in my comm
 
 ## How to: put a course book online
 
-From my post, ["How to put a course book online"]()
+From my post, ["How to Put your Course Book Online"](https://www.njtierney.com/post/2026/07/09/put-course-online/)
 
 - Make a quarto book
 - Add an appropriate license [CC BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
